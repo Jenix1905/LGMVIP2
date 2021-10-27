@@ -1,0 +1,80 @@
+body{
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-image: url("music.jpg"); */
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container
+{
+    position: relative;
+    height:600px;
+    left:0px;
+   
+}
+.heder
+ {
+    height:155px;
+    width:100%; 
+    background-color: crimson;
+    /* background-image: url("coke\ studio.jpg"); */
+    background-size: 150px;
+    background-repeat: no-repeat;
+    border-bottom:2px solid #fafdfc;
+    padding-top: 5px;
+    font-size: 120px;
+    color:white;
+    
+}
+.btn{
+    position:absolute;
+    top:15px;
+    right:20px;
+    
+}
+
+button{
+    color:white;
+    height:40px;
+    width:100px;
+    padding-top:10%;
+    background-image: linear-gradient(rgb(53, 49, 49),rgb(0, 255, 55));
+    /* background-image: linear-gradient(rgba(1,,)); */
+    border-radius: 10px; 
+    cursor: pointer;  
+}
+
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:900px;
+
+}
+table{
+    color:rgb(243, 11, 11);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+    
+}
+table tr :hover{
+    background-color:lightgray;
+
+}
+img{
+    clip-path: circle();
+}
+.welcome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: larger;
+    padding-top: 120px;
+}
